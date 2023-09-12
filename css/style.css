@@ -1,0 +1,1088 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #FEFCF7;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 9999px) and (min-width: 1101px) {
+  .wrapper {
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper .container {
+    max-width: 1280px;
+    min-height: 100vh;
+  }
+  .wrapper .container header {
+    max-width: 1280px;
+    height: 26px;
+    margin-top: 43.56px;
+  }
+  .wrapper .container header nav {
+    width: 1280px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper .container header nav .navigation ul {
+    display: flex;
+  }
+  .wrapper .container header nav .navigation ul li {
+    display: flex;
+    margin-right: 33px;
+  }
+  .wrapper .container header nav .navigation ul li a {
+    color: #83888F;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container header nav .navigation ul li a:hover {
+    transition: 0.1s;
+    color: #333D4B;
+  }
+  .wrapper .container header nav .navigation ul li:nth-child(2) {
+    margin-right: 32px;
+  }
+  .wrapper .container header nav .navigation ul li:nth-child(3) {
+    margin-right: 0;
+  }
+  .wrapper .container main .main-section {
+    margin-top: 43.44px;
+    border-radius: 10px;
+    max-width: 1280px;
+    height: 600px;
+    background-image: url("../img/home-page/Bitmap.jpg");
+    padding: 117px 0 0 85px;
+  }
+  .wrapper .container main .main-section h1 {
+    width: 493px;
+    height: 145px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+  }
+  .wrapper .container main .main-section p {
+    width: 445px;
+    height: 78px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-top: 32px;
+    opacity: 80%;
+  }
+  .wrapper .container main .main-section .main-section-button {
+    font-family: "Fraunces", serif;
+    width: 217px;
+    height: 56px;
+    border-radius: 5px;
+    background: #0E8784;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 56px;
+    cursor: pointer;
+  }
+  .wrapper .container main .main-section .main-section-button:hover {
+    transition: 0.5s;
+    background: #66D2CF;
+  }
+  .wrapper .container main .our-collections {
+    position: relative;
+    max-width: 1280px;
+    height: 525px;
+    margin-top: 136px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .wrapper .container main .our-collections .bg-text {
+    position: absolute;
+    width: 1111px;
+    height: 196px;
+    top: 86px;
+    font-size: 150px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: center;
+    color: rgba(215, 215, 215, 0.8274509804);
+    letter-spacing: 15px;
+    opacity: 60%;
+    z-index: -1;
+  }
+  .wrapper .container main .our-collections .gran-espresso {
+    width: 255px;
+    margin-right: 30px;
+  }
+  .wrapper .container main .our-collections .gran-espresso h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 71.55px;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .our-collections .gran-espresso .information-espresso {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .our-collections .planalto {
+    width: 255px;
+    margin-right: 30px;
+  }
+  .wrapper .container main .our-collections .planalto h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 71.55px;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .our-collections .planalto .information-planalto {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .our-collections .piccollo {
+    width: 255px;
+    margin-right: 30px;
+  }
+  .wrapper .container main .our-collections .piccollo h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 71.55px;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .our-collections .piccollo .information-piccollo {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .our-collections .danche {
+    width: 255px;
+    margin-right: 30px;
+  }
+  .wrapper .container main .our-collections .danche h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 71.55px;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .our-collections .danche .information-danche {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .advantages {
+    max-width: 1280px;
+    height: 728px;
+    background-image: url("../img/home-page/adventages-section-img.jpg");
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper .container main .advantages .question {
+    margin-top: 100px;
+    width: 540px;
+    height: 160px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .advantages .question .answer {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    opacity: 80%;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .advantages .cards {
+    width: 1110px;
+    height: 382px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 86px;
+  }
+  .wrapper .container main .advantages .cards .best-quality {
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .wrapper .container main .advantages .cards .best-quality .img {
+    margin-top: 72px;
+    margin-bottom: 56px;
+  }
+  .wrapper .container main .advantages .cards .best-quality h4 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+  }
+  .wrapper .container main .advantages .cards .best-quality .information-best-quality {
+    margin-top: 24px;
+    width: 255px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .advantages .cards .exclusive-benefits {
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .wrapper .container main .advantages .cards .exclusive-benefits .img {
+    margin-top: 72px;
+    margin-bottom: 56px;
+  }
+  .wrapper .container main .advantages .cards .exclusive-benefits h4 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+  }
+  .wrapper .container main .advantages .cards .exclusive-benefits .information-best-quality {
+    margin-top: 24px;
+    width: 255px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .advantages .cards .free-shepping {
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .wrapper .container main .advantages .cards .free-shepping .img {
+    margin-top: 72px;
+    margin-bottom: 56px;
+  }
+  .wrapper .container main .advantages .cards .free-shepping h4 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+  }
+  .wrapper .container main .advantages .cards .free-shepping .information-best-quality {
+    margin-top: 24px;
+    width: 255px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .workflow {
+    width: 1045px;
+    height: 565px;
+    margin-left: 85px;
+    margin-top: 200px;
+  }
+  .wrapper .container main .workflow h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+  }
+  .wrapper .container main .workflow .line-circle {
+    position: relative;
+    width: 791px;
+    height: 31px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper .container main .workflow .line-circle .circle {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #0E8784;
+    background: none;
+  }
+  .wrapper .container main .workflow .line-circle .line {
+    position: absolute;
+    border: 2px solid #FDD6BA;
+    width: 729px;
+    left: 31px;
+  }
+  .wrapper .container main .workflow .workflow-card-box {
+    margin-top: 67px;
+    display: flex;
+  }
+  .wrapper .container main .workflow .workflow-card-box .pick-your-coffee h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+  }
+  .wrapper .container main .workflow .workflow-card-box .pick-your-coffee h4 {
+    width: 255px;
+    height: 73px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .pick-your-coffee .information-pick-your-coffee {
+    width: 285px;
+    height: 130px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px 4;
+    color: #333D4B;
+    margin-top: 42px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .choose-the-frequency {
+    margin-left: 95px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .choose-the-frequency h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+  }
+  .wrapper .container main .workflow .workflow-card-box .choose-the-frequency h4 {
+    width: 255px;
+    height: 73px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .choose-the-frequency .information-choose-the-frequency {
+    width: 285px;
+    height: 130px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px 4;
+    color: #333D4B;
+    margin-top: 42px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .receive-and-enjoy {
+    margin-left: 95px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .receive-and-enjoy h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+  }
+  .wrapper .container main .workflow .workflow-card-box .receive-and-enjoy h4 {
+    width: 255px;
+    height: 73px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .receive-and-enjoy .information-receive-and-enjoy {
+    width: 285px;
+    height: 130px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px 4;
+    color: #333D4B;
+    margin-top: 42px;
+  }
+  .wrapper .container main .workflow button {
+    font-family: "Fraunces", serif;
+    width: 217px;
+    height: 56px;
+    border-radius: 5px;
+    background: #0E8784;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+  .wrapper .container main .workflow button:hover {
+    transition: 0.5s;
+    background: #66D2CF;
+  }
+  .wrapper .container footer {
+    width: 1280px;
+    height: 208px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .wrapper .container footer nav {
+    width: 1280px;
+    height: 120px;
+    padding: 47px 85px 39px 85px;
+    background: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wrapper .container footer nav .navigation-footer {
+    margin-left: -120px;
+  }
+  .wrapper .container footer nav .navigation-footer ul {
+    display: flex;
+  }
+  .wrapper .container footer nav .navigation-footer ul li {
+    display: flex;
+    margin-right: 33px;
+  }
+  .wrapper .container footer nav .navigation-footer ul li a {
+    color: #83888F;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container footer nav .navigation-footer ul li a:hover {
+    transition: 0.1s;
+    color: #FEFCF7;
+  }
+  .wrapper .container footer nav .navigation-footer ul li:nth-child(2) {
+    margin-right: 32px;
+  }
+  .wrapper .container footer nav .navigation-footer ul li:nth-child(3) {
+    margin-right: 0;
+  }
+  .wrapper .container footer nav .icons .icon-style {
+    color: #FEFCF7;
+    font-size: 19.5px;
+    margin-left: 19px;
+  }
+  .wrapper .container footer nav .icons .icon-style:hover {
+    transition: 0.5s;
+    color: #FDD6BA;
+  }
+}
+@media (max-width: 1100px) and (min-width: 500px) {
+  .wrapper {
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper .container {
+    max-width: 1280px;
+    min-height: 100vh;
+  }
+  .wrapper .container header {
+    max-width: 1280px;
+    height: 26px;
+    margin-top: 43.56px;
+  }
+  .wrapper .container header nav {
+    width: 1280px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper .container header nav .navigation ul {
+    display: flex;
+  }
+  .wrapper .container header nav .navigation ul li {
+    display: flex;
+    margin-right: 33px;
+  }
+  .wrapper .container header nav .navigation ul li a {
+    color: #83888F;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container header nav .navigation ul li a:hover {
+    transition: 0.1s;
+    color: #333D4B;
+  }
+  .wrapper .container header nav .navigation ul li:nth-child(2) {
+    margin-right: 32px;
+  }
+  .wrapper .container header nav .navigation ul li:nth-child(3) {
+    margin-right: 0;
+  }
+  .wrapper .container main .main-section {
+    margin-top: 43.44px;
+    border-radius: 10px;
+    max-width: 1280px;
+    height: 600px;
+    background-image: url("../img/home-page/Bitmap.jpg");
+    padding: 117px 0 0 85px;
+  }
+  .wrapper .container main .main-section h1 {
+    width: 493px;
+    height: 145px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+  }
+  .wrapper .container main .main-section p {
+    width: 445px;
+    height: 78px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-top: 32px;
+    opacity: 80%;
+  }
+  .wrapper .container main .main-section .main-section-button {
+    font-family: "Fraunces", serif;
+    width: 217px;
+    height: 56px;
+    border-radius: 5px;
+    background: #0E8784;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 56px;
+    cursor: pointer;
+  }
+  .wrapper .container main .main-section .main-section-button:hover {
+    transition: 0.5s;
+    background: #66D2CF;
+  }
+  .wrapper .container main .our-collections {
+    position: relative;
+    max-width: 1280px;
+    height: 525px;
+    margin-top: 136px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .wrapper .container main .our-collections .bg-text {
+    position: absolute;
+    width: 1111px;
+    height: 196px;
+    top: 86px;
+    font-size: 150px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: center;
+    color: rgba(215, 215, 215, 0.8274509804);
+    letter-spacing: 15px;
+    opacity: 60%;
+    z-index: -1;
+  }
+  .wrapper .container main .our-collections .gran-espresso {
+    width: 255px;
+    margin-right: 30px;
+  }
+  .wrapper .container main .our-collections .gran-espresso h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 71.55px;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .our-collections .gran-espresso .information-espresso {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .our-collections .planalto {
+    width: 255px;
+    margin-right: 30px;
+  }
+  .wrapper .container main .our-collections .planalto h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 71.55px;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .our-collections .planalto .information-planalto {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .our-collections .piccollo {
+    width: 255px;
+    margin-right: 30px;
+  }
+  .wrapper .container main .our-collections .piccollo h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 71.55px;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .our-collections .piccollo .information-piccollo {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .our-collections .danche {
+    width: 255px;
+    margin-right: 30px;
+  }
+  .wrapper .container main .our-collections .danche h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 71.55px;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .our-collections .danche .information-danche {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .advantages {
+    max-width: 1280px;
+    height: 728px;
+    background-image: url("../img/home-page/adventages-section-img.jpg");
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper .container main .advantages .question {
+    margin-top: 100px;
+    width: 540px;
+    height: 160px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces", serif;
+  }
+  .wrapper .container main .advantages .question .answer {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    opacity: 80%;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .advantages .cards {
+    width: 1110px;
+    height: 382px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 86px;
+  }
+  .wrapper .container main .advantages .cards .best-quality {
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .wrapper .container main .advantages .cards .best-quality .img {
+    margin-top: 72px;
+    margin-bottom: 56px;
+  }
+  .wrapper .container main .advantages .cards .best-quality h4 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+  }
+  .wrapper .container main .advantages .cards .best-quality .information-best-quality {
+    margin-top: 24px;
+    width: 255px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .advantages .cards .exclusive-benefits {
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .wrapper .container main .advantages .cards .exclusive-benefits .img {
+    margin-top: 72px;
+    margin-bottom: 56px;
+  }
+  .wrapper .container main .advantages .cards .exclusive-benefits h4 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+  }
+  .wrapper .container main .advantages .cards .exclusive-benefits .information-best-quality {
+    margin-top: 24px;
+    width: 255px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .advantages .cards .free-shepping {
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .wrapper .container main .advantages .cards .free-shepping .img {
+    margin-top: 72px;
+    margin-bottom: 56px;
+  }
+  .wrapper .container main .advantages .cards .free-shepping h4 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+  }
+  .wrapper .container main .advantages .cards .free-shepping .information-best-quality {
+    margin-top: 24px;
+    width: 255px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container main .workflow {
+    width: 1045px;
+    height: 565px;
+    margin-left: 85px;
+    margin-top: 200px;
+  }
+  .wrapper .container main .workflow h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+  }
+  .wrapper .container main .workflow .line-circle {
+    position: relative;
+    width: 791px;
+    height: 31px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper .container main .workflow .line-circle .circle {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #0E8784;
+    background: none;
+  }
+  .wrapper .container main .workflow .line-circle .line {
+    position: absolute;
+    border: 2px solid #FDD6BA;
+    width: 729px;
+    left: 31px;
+  }
+  .wrapper .container main .workflow .workflow-card-box {
+    margin-top: 67px;
+    display: flex;
+  }
+  .wrapper .container main .workflow .workflow-card-box .pick-your-coffee h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+  }
+  .wrapper .container main .workflow .workflow-card-box .pick-your-coffee h4 {
+    width: 255px;
+    height: 73px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .pick-your-coffee .information-pick-your-coffee {
+    width: 285px;
+    height: 130px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px 4;
+    color: #333D4B;
+    margin-top: 42px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .choose-the-frequency {
+    margin-left: 95px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .choose-the-frequency h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+  }
+  .wrapper .container main .workflow .workflow-card-box .choose-the-frequency h4 {
+    width: 255px;
+    height: 73px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .choose-the-frequency .information-choose-the-frequency {
+    width: 285px;
+    height: 130px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px 4;
+    color: #333D4B;
+    margin-top: 42px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .receive-and-enjoy {
+    margin-left: 95px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .receive-and-enjoy h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+  }
+  .wrapper .container main .workflow .workflow-card-box .receive-and-enjoy h4 {
+    width: 255px;
+    height: 73px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+  }
+  .wrapper .container main .workflow .workflow-card-box .receive-and-enjoy .information-receive-and-enjoy {
+    width: 285px;
+    height: 130px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px 4;
+    color: #333D4B;
+    margin-top: 42px;
+  }
+  .wrapper .container main .workflow button {
+    font-family: "Fraunces", serif;
+    width: 217px;
+    height: 56px;
+    border-radius: 5px;
+    background: #0E8784;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+  .wrapper .container main .workflow button:hover {
+    transition: 0.5s;
+    background: #66D2CF;
+  }
+  .wrapper .container footer {
+    width: 1280px;
+    height: 208px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .wrapper .container footer nav {
+    width: 1280px;
+    height: 120px;
+    padding: 47px 85px 39px 85px;
+    background: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wrapper .container footer nav .navigation-footer {
+    margin-left: -120px;
+  }
+  .wrapper .container footer nav .navigation-footer ul {
+    display: flex;
+  }
+  .wrapper .container footer nav .navigation-footer ul li {
+    display: flex;
+    margin-right: 33px;
+  }
+  .wrapper .container footer nav .navigation-footer ul li a {
+    color: #83888F;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    font-family: "Barlow", sans-serif;
+  }
+  .wrapper .container footer nav .navigation-footer ul li a:hover {
+    transition: 0.1s;
+    color: #FEFCF7;
+  }
+  .wrapper .container footer nav .navigation-footer ul li:nth-child(2) {
+    margin-right: 32px;
+  }
+  .wrapper .container footer nav .navigation-footer ul li:nth-child(3) {
+    margin-right: 0;
+  }
+  .wrapper .container footer nav .icons .icon-style {
+    color: #FEFCF7;
+    font-size: 19.5px;
+    margin-left: 19px;
+  }
+  .wrapper .container footer nav .icons .icon-style:hover {
+    transition: 0.5s;
+    color: #FDD6BA;
+  }
+}/*# sourceMappingURL=style.css.map */

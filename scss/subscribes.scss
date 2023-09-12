@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #FEFCF7;
+
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    max-width: 1440px;
+    min-height: 100vh;
+
+
+    display: flex;
+    justify-content: center;
+    .container{
+        max-width: 1280px;
+        min-height: 100vh;
+        header{
+            max-width: 1280px;
+            height: 26px;
+            margin-top: 43.56px;
+            nav{
+                width: 1280px;
+                height: 26px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .logo{
+
+                }
+                .navigation{
+                    ul{
+                        display: flex;
+                        li{
+                            display: flex;
+                            margin-right: 33px;
+                            a{
+                                color: #83888F;
+                                text-decoration: none;
+                                font-weight: 700;
+                                font-size: 12px;
+                                line-height: 15px;
+                                letter-spacing: 0.92px;
+
+                                font-family: 'Barlow', sans-serif;
+                            }
+                            a:hover{
+                                transition: 0.1s;
+                                color: #333D4B; 
+                            }
+                        }
+                        li:nth-child(2){
+                            margin-right: 32px;
+                        }
+                        li:nth-child(3){
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            width: 1280px;
+            height: 208px;
+
+            margin-top: 200px;
+
+            display: flex;
+            align-items: center;
+            nav{
+                width: 1280px;
+                height: 120px;
+
+                padding: 47px 85px 39px 85px;
+                background: #2C343E;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .navigation-footer{
+                    margin-left: -120px;
+                    ul{
+                        display: flex;
+                        li{
+                            display: flex;
+                            margin-right: 33px;
+                            a{
+                                color: #83888F;
+                                text-decoration: none;
+                                font-weight: 700;
+                                font-size: 12px;
+                                line-height: 15px;
+                                letter-spacing: 0.92px;
+
+                                font-family: 'Barlow', sans-serif;
+                            }
+                            a:hover{
+                                transition: 0.1s;
+                                color: #FEFCF7; 
+                            }
+                        }
+                        li:nth-child(2){
+                            margin-right: 32px;
+                        }
+                        li:nth-child(3){
+                            margin-right: 0;
+                        }
+                    }
+                }
+                .icons{
+                    .icon-style{
+                        color: #FEFCF7;
+                        font-size: 19.5px;
+
+                        margin-left: 19px;
+                        &:hover{
+                            transition: 0.5s;
+                            color: #FDD6BA;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
